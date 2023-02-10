@@ -19,7 +19,7 @@ login to your aws root or IAM account to create an ec2 instance.
 5. launch instance
 
 
-![ec2 instance running](./images/ec2%20instance.jpg)
+![ec2 instance running](./ec2%20instance.jpg)
 
 
 ssh your virtual in your terminal when you are in the downloads folder that has the .pem file    cd~/Downloads
@@ -27,7 +27,7 @@ ssh your virtual in your terminal when you are in the downloads folder that has 
 `ssh -i project1.pem ubuntu@your public-IP-address`
 
 
-![ssh sucessful](./images/ssh2.jpg)
+![ssh sucessful](./ssh2.jpg)
 
 
 
@@ -43,7 +43,7 @@ To verify that apache2 is running
 run `sudo syemctl status apache2`
 
 
-![apache2 running](./images/running%20apache2.jpg)
+![apache2 running](./running%20apache2.jpg)
 
 If it is green and running, then you did everything correctly – you have just launched your first Web Server in the Clouds!
 Before we can receive any traffic by our Web Server, we need to open TCP port 80 which is the default port that web browsers use to access web pages on the Internet
@@ -55,7 +55,7 @@ Open a web browser of your choice and try to access the following url
 
 *http://44.211.51.166:80*
 
-![apache2 default page](./images/apache2%20default%20page.jpg)
+![apache2 default page](./apache2%20default%20page.jpg)
 
 
 
@@ -68,8 +68,7 @@ when the installation is finished/ login to mysql console by typing
 
 `sudo mysql`
 
-
-![my sql](./images/mysql.jpg)
+![my sql](./mysql.jpg)
 
 set a password for the root user
 
@@ -87,7 +86,7 @@ put in PassWord.1 as the password. Then select y or Y for the question brought u
 
 select 0,1 or 2 as the level of password validation.
 
-![mysql password](./images/mysql%20passwd.jpg)
+![mysql password](./mysql%20passwd.jpg)
 
 press y for yes and enter key for further questions that are being asked.
 
@@ -169,7 +168,7 @@ Now go to your browser and try to open your website URL using ip address:
 *http://your pubic-IP-address:80*
 
 
-![hello lamp](./images/hello%20lamp.jpg)
+![hello lamp](./hello%20lamp.jpg)
 
 
 ## step 6
@@ -200,13 +199,13 @@ This will open a blank file. Add the following text, which is valid PHP code, in
 `<?php
 phpinfo();`
 
-![php code](./images/php%20code.jpg)
+![php code](./php%20code.jpg)
 
 
 Save and close the file, refresh the page and you will see a page similar to this:
 
 
-![php page](./images/php%20page.jpg)
+![php page](./php%20page.jpg)
 
 
 
