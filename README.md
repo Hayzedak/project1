@@ -75,7 +75,7 @@ set a password for the root user
 
 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
 
-Exut the MYSQL shell with:
+Exit the MYSQL shell with:
 
 mysql> `exit`
 
